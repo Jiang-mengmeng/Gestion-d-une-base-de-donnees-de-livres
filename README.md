@@ -1,7 +1,7 @@
 # Gestion d'une base de données de livres
 
 ## Description
-Ce projet implémente une gestion simple d'une base de données de livres en utilisant une liste chaînée. L'utilisateur peut initialiser, afficher, ajouter, supprimer, rechercher et trier des livres de la liste de manière interactive.
+Ce projet implémente une gestion simple d'une base de données de livres en utilisant une **classe** avec une liste chaînée intégrée. L'utilisateur peut initialiser, afficher, ajouter, supprimer, rechercher et trier des livres de la liste de manière interactive.
 
 ## Fonctionnalités
 - **Initialiser une liste de livres** avec une taille et un ordre (croissant ou décroissant).
@@ -19,10 +19,14 @@ Ce projet implémente une gestion simple d'une base de données de livres en uti
 ## Implémentation
 
 ### Compilation
-Utilise la commande suivante pour compiler le programme :
-```sh
- g++ -o gestion_livres gestion_livres.cpp
-```
+Pour compiler le programme avec `Makefile`, utilisez la commande :  
+   ```bash
+   make
+   ``` 
+Pour supprimer tous les fichiers générés par le Makefile, utilisez la commande :  
+   ```bash
+   make clean 
+   ``` 
 
 ### Exécution
 Lance le programme avec :
