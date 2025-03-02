@@ -63,8 +63,6 @@ Lancer le programme avec :
 ./bin/LibraryManagement
 ```
 
-Le processus demande d'abord à l'utilisateur de saisir la taille et l'ordre pour initialiser une liste de livres. Ensuite, un menu interactif s'affichera pour naviguer entre les différentes fonctionnalités.
-
 ## Améliorations futures
 - **Sauvegarde et chargement des livres** dans un fichier pour conserver les données entre les sessions.
 - **Gestion avancée des erreurs** pour éviter l'ajout de livres avec des champs invalides.
