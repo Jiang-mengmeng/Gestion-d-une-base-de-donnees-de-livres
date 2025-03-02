@@ -9,6 +9,7 @@ void Menu::displayMenu() {
     std::cout << "3. Rechercher un livre" << std::endl;
     std::cout << "4. Trier les livres" << std::endl;
     std::cout << "5. Afficher les livres" << std::endl;
+    std::cout << "6. Quitter" << std::endl; 
 }
 
 int Menu::handleUserInput() {

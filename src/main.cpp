@@ -11,7 +11,7 @@ int main(int argc, char const *argv[])
     Menu menu(library);
     menu.displayMenu();
     int choice = menu.handleUserInput();
-    while (choice != 5) {
+    while (choice != 6) {
         switch (choice) {
             case 1:
                 menu.addBook();
